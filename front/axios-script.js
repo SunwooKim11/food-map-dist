@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     const dataSet = await axios({
       method: "get",
-      url: `http://localhost:3000/restaurants?category=${query}`,
+      url: `http://3.34.226.149:3000/restaurants?category=${query}`,
       headers: {}, // packet header
       data: {}, // packet body
     })
